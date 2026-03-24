@@ -1,0 +1,13 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Root runner for library management system",
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd management && mvnw.cmd spring-boot:run",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
