@@ -4,7 +4,7 @@
   "description": "Root runner for library management system",
   "scripts": {
     "frontend": "cd frontend && npm run dev",
-    "backend": "cd management && mvnw.cmd spring-boot:run",
+    "backend": "cd backend && mvnw.cmd spring-boot:run",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
   },
   "devDependencies": {
